@@ -1,0 +1,204 @@
+Ship #1: OK
+Ship #2: OK
+Ship #3: OK
+Ship #4: OK
+Ship #5: OK
+
+Pool at H7: EMPTY
+Feedback: NOTHING
+
+Pool at G5: EMPTY
+Feedback: ATTACK
+
+Pool at D6: SHIP
+Feedback: NOTHING
+
+Shoot at C5: HIT
+Feedback: ATTACK
+
+Pool at I1: SHIP
+Feedback: NOTHING
+
+Shoot at H2: HIT
+Feedback: ATTACK
+
+Pool at F6: EMPTY
+Feedback: NOTHING
+
+Pool at I4: SHIP
+Feedback: ATTACK
+
+Shoot at H3: HIT
+Feedback: NOTHING
+
+Pool at E4: EMPTY
+Feedback: ATTACK
+
+Pool at C1: EMPTY
+Feedback: NOTHING
+
+Pool at E2: SHIP
+Feedback: NOTHING
+
+Shoot at E2: HIT
+Feedback: ATTACK
+
+Pool at H1: SHIP
+Feedback: NOTHING
+
+Shoot at G2: HIT
+Feedback: NOTHING
+
+Pool at D4: EMPTY
+Feedback: NOTHING
+
+Pool at I2: SHIP
+Feedback: ATTACK
+
+Shoot at I3: HIT
+Feedback: NOTHING
+
+Pool at B2: EMPTY
+Feedback: ATTACK
+
+Pool at E2: SHIP
+Feedback: NOTHING
+
+Shoot at F2: HIT
+Feedback: NOTHING
+
+Pool at H5: EMPTY
+Feedback: NOTHING
+
+Pool at B5: SHIP
+Feedback: ATTACK
+
+Shoot at B5: HIT
+Feedback: NOTHING
+
+Pool at D6: EMPTY
+Feedback: ATTACK
+
+Pool at B6: EMPTY
+Feedback: NOTHING
+
+Pool at E8: SHIP
+Feedback: NOTHING
+
+Shoot at E9: HIT
+Feedback: NOTHING
+
+Pool at G8: SHIP
+Feedback: NOTHING
+
+Shoot at G9: HIT
+Feedback: NOTHING
+
+Pool at G5: EMPTY
+Feedback: NOTHING
+
+Pool at E1: EMPTY
+Feedback: NOTHING
+
+Pool at B5: EMPTY
+Feedback: NOTHING
+
+Pool at B4: EMPTY
+Feedback: NOTHING
+
+Pool at G8: SHIP
+Feedback: NOTHING
+
+Shoot at F9: HIT
+Feedback: NOTHING
+
+Pool at E8: SHIP
+Feedback: ATTACK
+
+Shoot at D8: HIT
+Feedback: NOTHING
+
+Pool at D3: EMPTY
+Feedback: NOTHING
+
+Pool at B4: EMPTY
+Feedback: ATTACK
+
+Pool at E4: EMPTY
+Feedback: NOTHING
+
+Pool at F2: SHIP
+Feedback: NOTHING
+
+Shoot at G3: HIT
+Feedback: NOTHING
+
+Pool at B5: EMPTY
+Feedback: NOTHING
+
+Pool at G3: EMPTY
+Feedback: NOTHING
+
+Pool at C7: SHIP
+Feedback: NOTHING
+
+Shoot at C8: HIT
+Feedback: ATTACK
+
+Pool at I5: EMPTY
+Feedback: NOTHING
+
+Pool at G6: EMPTY
+Feedback: NOTHING
+
+Pool at F3: EMPTY
+Feedback: NOTHING
+
+Pool at C8: SHIP
+Feedback: NOTHING
+
+Shoot at C9: HIT
+Feedback: NOTHING
+
+Pool at D2: EMPTY
+Feedback: NOTHING
+
+Pool at E4: EMPTY
+Feedback: NOTHING
+
+Pool at F2: EMPTY
+Feedback: NOTHING
+
+Pool at D8: SHIP
+Feedback: NOTHING
+
+Shoot at D9: HIT
+Feedback: NOTHING
+
+Pool at B5: EMPTY
+Feedback: ATTACK
+
+Pool at C2: EMPTY
+Feedback: NOTHING
+
+Pool at I5: EMPTY
+Feedback: NOTHING
+
+Pool at F4: EMPTY
+Feedback: NOTHING
+
+Pool at G5: EMPTY
+Feedback: NOTHING
+
+Pool at I4: EMPTY
+Feedback: NOTHING
+
+Pool at I2: EMPTY
+Feedback: NOTHING
+
+Pool at C7: SHIP
+Feedback: NOTHING
+
+Shoot at B8: HIT
+Feedback: NOTHING
+
