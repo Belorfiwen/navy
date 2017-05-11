@@ -1,55 +1,122 @@
-#include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "bateaux.h"
+#include "grilles.h"
+#include "fonctions.h"
+
+
 
 #define BUFSIZE 256
+#define CAPACITY 100 
+
+
 
 int main() {
 
 	setbuf(stdout, NULL);
 	char buffer[BUFSIZE];
 
+
+	// grilles
+
+	struct grid1 grid;
+	grid_create_joueur1(&grid);
+
+	struct grid2 grid2;
+	grid_create_joueur2(&grid2);
+
+
 	// mines
-	printf("C2\n");
-	printf("H2\n");
-	printf("C7\n");
-	printf("H7\n");
-	printf("E5\n");
+	mine_placement('C', 2, &grid2);
 
-	// ships
-	printf("B2B6\n");
-	fgets(buffer, BUFSIZE, stdin);
-	assert(strcmp(buffer, "OK\n") == 0);
+	mine_placement('H', 2, &grid2);
 
-	printf("E8H8\n");
-	fgets(buffer, BUFSIZE, stdin);
-	assert(strcmp(buffer, "OK\n") == 0);
+	mine_placement('C', 7, &grid2);
 
-	printf("D1F1\n");
-	fgets(buffer, BUFSIZE, stdin);
-	assert(strcmp(buffer, "OK\n") == 0);
+	mine_placement('H', 7, &grid2);
 
-	printf("G5I5\n");
-	fgets(buffer, BUFSIZE, stdin);
-	assert(strcmp(buffer, "OK\n") == 0);
+	mine_placement('E', 5, &grid2);
 
-	printf("I0I1\n");
-	fgets(buffer, BUFSIZE, stdin);
-	assert(strcmp(buffer, "OK\n") == 0);
 
-	fgets(buffer, BUFSIZE, stdin);
-	assert(strcmp(buffer, "START\n") == 0);
+	//bateaux
 
-	for (;;) {
-		
-		printf("SHOOT\n"); // or POOL or MOVE
-		printf("D2\n");
-		fgets(buffer, BUFSIZE, stdin);
-		assert(strcmp(buffer, "MISS\n") == 0);
+	struct ship a;
+	ship_create(&a, 5, 'B', 1, 1);
+	ship_placement(&grid, &a);
 
-		fgets(buffer, BUFSIZE, stdin);
-		// NOTHING or MISSED or KABOOM or ATTACK
-	}
+	struct ship b;
+	ship_create(&b, 4, 'D', 7, 0);
+	ship_placement(&grid, &b);
+
+	struct ship c;
+	ship_create(&c, 3, 'E', 2, 0);
+	ship_placement(&grid, &c);
+
+	struct ship d;
+	ship_create(&d, 3, 'E', 4, 0);
+	ship_placement(&grid, &d);
+
+	struct ship e;
+	ship_create(&e, 2, 'I', 1, 1);
+	ship_placement(&grid, &e);
+	
+	start_or_kaboom(&grid2);
+
+	affichage_grid_joueur1(&grid);
+	fprintf(stderr, "\n");
+	affichage_grid_joueur2(&grid2);
+
+	size_t round = 0;
+
+	char *poll[16] = {"B1","E1","H1","I1","B3","E3","H3","I3","B6","E6","H6","I6","B8","E8","H8","I8"};
+
+	for (size_t j = 0; j < 16; ++j)
+	{	
+		size_t scan = 1;
+		struct pos attack;
+		attack.x = 0;
+		attack.y = 0;
+		do
+		{
+			round++;
+			fprintf(stderr, "Round : %zu\n\nMon tour : \n", round);
+			if (scan == 1)
+			{
+				scan = action_poll(&grid2, poll[j], &attack);
+			}
+			else
+			{
+				char x = ((char)attack.x+65);
+				size_t y = attack.y;
+
+				//envoie d'un tir
+				printf("SHOOT\n"); // or POLL or MOVE 
+				printf("%c%zu\n",x,y);
+				grid2.size++;
+
+				// recuperation resultat d'un tir
+				fgets(buffer, BUFSIZE, stdin);
+				if(strcmp(buffer, "MISS\n") == 0)
+				{
+					fprintf(stderr, "Tir raté : %c%zu\n", x,y);
+					grid2.data[attack.x][attack.y] = 4; // marquage du tir raté, sur la grille adverse.
+				}
+				else
+				{
+					fprintf(stderr, "Tir reussi : %c%zu\n", x,y);
+					grid2.data[attack.x][attack.y] = 2; // marquage du tir raté, sur la grille adverse.
+				}
+				scan = 1;
+			}
+			fprintf(stderr, "coucouc\n");
+			tour_adverse(&grid2,&grid);
+
+			affichage_grid_joueur1(&grid);
+			fprintf(stderr, "\n");
+			affichage_grid_joueur2(&grid2);
+
+		} while (scan != 0);
+	} 
 	return EXIT_SUCCESS;
 }

@@ -1,201 +1,220 @@
-Ship #1: OK
-Ship #2: OK
-Ship #3: OK
-Ship #4: OK
-Ship #5: OK
+Bateau #0 bien placer	coord : D8H8
+Bateau #1 sur une mine	coord : E4E7
+Bateau #2 sur une mine	coord : H0H2
+Bateau #3 bien placer	coord : D0D2
+Bateau #4 bien placer	coord : A9B9
+  A B C D E F G H I J
+0 v v v b v v v d v v 
+1 v v v b v v v d v v 
+2 v v v b v v v d v v 
+3 v v v v v v v v v v 
+4 v v v v d v v v v v 
+5 v v v v d v v v v v 
+6 v v v v d v v v v v 
+7 v v v v d v v v v v 
+8 v v v b b b b b v v 
+9 b b v v v v v v v v 
+Bateau adv sur une mine	coord : I1
 
-Pool at H5: SHIP
-Feedback: NOTHING
+	START
 
-Shoot at H6: HIT
-Feedback: NOTHING
 
-Pool at H5: SHIP
-Feedback: NOTHING
+poll :12
 
-Shoot at G5: HIT
-Feedback: ATTACK
+Nous: SHIP	coord: B1
 
-Pool at C2: SHIP
-Feedback: NOTHING
 
-Shoot at D3: HIT
-Feedback: ATTACK
+Adv: NOTHING	Rien
 
-Pool at B4: SHIP
-Feedback: NOTHING
+Nous: HIT	Touché
 
-Shoot at C3: HIT
-Feedback: NOTHING
+Adv: NOTHING	Rien
 
-Pool at F3: SHIP
-Feedback: ATTACK
+poll :12
 
-Shoot at E3: HIT
-Feedback: NOTHING
+Nous: SHIP	coord: B2
 
-Pool at I3: EMPTY
-Feedback: NOTHING
 
-Pool at G5: SHIP
-Feedback: NOTHING
+Adv: ATTACK	Nous sommes touché coord: D2
 
-Shoot at F6: HIT
-Feedback: ATTACK
 
-Pool at G3: EMPTY
-Feedback: NOTHING
+Nous: HIT	Touché
 
-Pool at D2: EMPTY
-Feedback: ATTACK
+Adv: NOTHING	Rien
 
-Pool at I5: SHIP
-Feedback: NOTHING
+poll :12
 
-Shoot at H5: HIT
-Feedback: NOTHING
+Nous: EMPTY
 
-Pool at H6: SHIP
-Feedback: ATTACK
+Adv: ATTACK	Nous sommes touché coord: D0
 
-Shoot at G6: HIT
-Feedback: NOTHING
 
-Pool at H6: EMPTY
-Feedback: NOTHING
+poll :86
 
-Pool at G5: EMPTY
-Feedback: ATTACK
+Nous: SHIP	coord: G7
 
-Pool at F8: SHIP
-Feedback: NOTHING
 
-Shoot at E9: HIT
-Feedback: NOTHING
+Adv: NOTHING	Rien
 
-Pool at D1: SHIP
-Feedback: ATTACK
+Nous: HIT	Touché
 
-Shoot at D0: HIT
-Feedback: NOTHING
+Adv: ATTACK	Nous sommes touché coord: D1
 
-Pool at H2: EMPTY
-Feedback: NOTHING
 
-Pool at F5: EMPTY
-Feedback: NOTHING
+poll :86
 
-Pool at G6: EMPTY
-Feedback: ATTACK
+Nous: SHIP	coord: F7
 
-Pool at G6: EMPTY
-Feedback: NOTHING
 
-Pool at B2: EMPTY
-Feedback: ATTACK
+Adv: NOTHING	Rien
 
-Pool at I1: EMPTY
-Feedback: NOTHING
+Nous: HIT	Touché
 
-Pool at F6: EMPTY
-Feedback: NOTHING
+Adv: NOTHING	Rien
 
-Pool at F2: EMPTY
-Feedback: NOTHING
+poll :86
 
-Pool at I7: EMPTY
-Feedback: NOTHING
+Nous: EMPTY
 
-Pool at D7: EMPTY
-Feedback: NOTHING
+Adv: NOTHING	Rien
 
-Pool at D1: SHIP
-Feedback: ATTACK
+poll :15
 
-Shoot at C0: HIT
-Feedback: NOTHING
+Nous: SHIP	coord: F2
 
-Pool at E2: EMPTY
-Feedback: ATTACK
 
-Pool at G1: SHIP
-Feedback: NOTHING
+Adv: NOTHING	Rien
 
-Shoot at F0: HIT
-Feedback: NOTHING
+Nous: HIT	Touché
 
-Pool at G3: EMPTY
-Feedback: NOTHING
+Adv: NOTHING	Rien
 
-Pool at I1: EMPTY
-Feedback: NOTHING
+poll :15
 
-Pool at D6: EMPTY
-Feedback: ATTACK
+Nous: SHIP	coord: E2
 
-Pool at C7: EMPTY
-Feedback: NOTHING
 
-Pool at C7: EMPTY
-Feedback: NOTHING
+Adv: NOTHING	Rien
 
-Pool at E8: SHIP
-Feedback: NOTHING
+Nous: HIT	Touché
 
-Shoot at F9: HIT
-Feedback: ATTACK
+Adv: NOTHING	Rien
 
-Pool at E5: EMPTY
-Feedback: NOTHING
+poll :15
 
-Pool at B3: EMPTY
-Feedback: NOTHING
+Nous: SHIP	coord: G2
 
-Pool at F5: EMPTY
-Feedback: NOTHING
 
-Pool at I1: EMPTY
-Feedback: NOTHING
+Adv: NOTHING	Rien
 
-Pool at G7: EMPTY
-Feedback: ATTACK
+Nous: HIT	Touché
 
-Pool at H8: EMPTY
-Feedback: NOTHING
+Adv: NOTHING	Rien
 
-Pool at F2: EMPTY
-Feedback: NOTHING
+poll :15
 
-Pool at B1: EMPTY
-Feedback: NOTHING
+Nous: EMPTY
 
-Pool at D6: EMPTY
-Feedback: NOTHING
+Adv: NOTHING	Rien
 
-Pool at B8: SHIP
-Feedback: ATTACK
+poll :83
 
-Shoot at B9: HIT
-Feedback: NOTHING
+Nous: SHIP	coord: D7
 
-Pool at I1: EMPTY
-Feedback: NOTHING
 
-Pool at I2: EMPTY
-Feedback: NOTHING
+Adv: NOTHING	Rien
 
-Pool at G1: EMPTY
-Feedback: NOTHING
+Nous: HIT	Touché
 
-Pool at I8: EMPTY
-Feedback: NOTHING
+Adv: NOTHING	Rien
 
-Pool at H4: EMPTY
-Feedback: NOTHING
+poll :83
 
-Pool at H2: EMPTY
-Feedback: NOTHING
+Nous: SHIP	coord: E7
 
-Pool at I7: EMPTY
-Feedback: NOTHING
 
+Adv: ATTACK	Nous sommes touché coord: B9
+
+
+Nous: HIT	Touché
+
+Adv: NOTHING	Rien
+
+poll :83
+
+Nous: EMPTY
+
+Adv: ATTACK	Nous sommes touché coord: A9
+
+
+poll :18
+
+Nous: EMPTY
+
+Adv: NOTHING	Rien
+
+poll :80
+
+Nous: EMPTY
+
+Adv: NOTHING	Rien
+
+poll :21
+
+Nous: SHIP	coord: B3
+
+
+Adv: ATTACK	Nous sommes touché coord: F8
+
+
+Nous: HIT	Touché
+
+Adv: NOTHING	Rien
+
+poll :21
+
+Nous: EMPTY
+
+Adv: ATTACK	Nous sommes touché coord: E8
+
+
+poll :77
+
+Nous: EMPTY
+
+Adv: NOTHING	Rien
+
+poll :24
+
+Nous: EMPTY
+
+Adv: ATTACK	Nous sommes touché coord: D8
+
+
+poll :74
+
+Nous: EMPTY
+
+Adv: NOTHING	Rien
+
+poll :27
+
+Nous: EMPTY
+
+Adv: NOTHING	Rien
+
+poll :71
+
+Nous: EMPTY
+
+Adv: ATTACK	Nous sommes touché coord: H8
+
+
+poll :30
+
+Nous: SHIP	coord: B4
+
+
+Adv: NOTHING	Rien
+
+Nous: 

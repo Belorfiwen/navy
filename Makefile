@@ -7,9 +7,9 @@ TARGET= navy
 all: ${TARGET}
 
 run: navy
-	./navy-server ./navy-dumb ./navy-dumb
+	./navy-server ./navy ./navy-dumb
 
-navy: navy.o 
+navy: navy.o bateaux.o grilles.o fonctions.o
 		${CC} ${LDFLAGS} -o $@ $^
 %.o: %.c 
 		${CC} -c ${CFLAGS} -o $@ $<
@@ -18,3 +18,4 @@ clean:
 		rm -f *.o
 mrproper: clean
 		rm -f ${TARGET}
+

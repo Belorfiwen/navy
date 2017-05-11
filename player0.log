@@ -1,204 +1,1068 @@
-Ship #1: OK
-Ship #2: OK
-Ship #3: OK
-Ship #4: OK
-Ship #5: OK
-
-Pool at H7: EMPTY
-Feedback: NOTHING
-
-Pool at G5: EMPTY
-Feedback: ATTACK
-
-Pool at D6: SHIP
-Feedback: NOTHING
-
-Shoot at C5: HIT
-Feedback: ATTACK
-
-Pool at I1: SHIP
-Feedback: NOTHING
-
-Shoot at H2: HIT
-Feedback: ATTACK
-
-Pool at F6: EMPTY
-Feedback: NOTHING
-
-Pool at I4: SHIP
-Feedback: ATTACK
-
-Shoot at H3: HIT
-Feedback: NOTHING
-
-Pool at E4: EMPTY
-Feedback: ATTACK
-
-Pool at C1: EMPTY
-Feedback: NOTHING
-
-Pool at E2: SHIP
-Feedback: NOTHING
-
-Shoot at E2: HIT
-Feedback: ATTACK
-
-Pool at H1: SHIP
-Feedback: NOTHING
-
-Shoot at G2: HIT
-Feedback: NOTHING
-
-Pool at D4: EMPTY
-Feedback: NOTHING
-
-Pool at I2: SHIP
-Feedback: ATTACK
-
-Shoot at I3: HIT
-Feedback: NOTHING
-
-Pool at B2: EMPTY
-Feedback: ATTACK
-
-Pool at E2: SHIP
-Feedback: NOTHING
-
-Shoot at F2: HIT
-Feedback: NOTHING
-
-Pool at H5: EMPTY
-Feedback: NOTHING
-
-Pool at B5: SHIP
-Feedback: ATTACK
-
-Shoot at B5: HIT
-Feedback: NOTHING
-
-Pool at D6: EMPTY
-Feedback: ATTACK
-
-Pool at B6: EMPTY
-Feedback: NOTHING
-
-Pool at E8: SHIP
-Feedback: NOTHING
-
-Shoot at E9: HIT
-Feedback: NOTHING
-
-Pool at G8: SHIP
-Feedback: NOTHING
-
-Shoot at G9: HIT
-Feedback: NOTHING
-
-Pool at G5: EMPTY
-Feedback: NOTHING
-
-Pool at E1: EMPTY
-Feedback: NOTHING
-
-Pool at B5: EMPTY
-Feedback: NOTHING
-
-Pool at B4: EMPTY
-Feedback: NOTHING
-
-Pool at G8: SHIP
-Feedback: NOTHING
-
-Shoot at F9: HIT
-Feedback: NOTHING
-
-Pool at E8: SHIP
-Feedback: ATTACK
-
-Shoot at D8: HIT
-Feedback: NOTHING
-
-Pool at D3: EMPTY
-Feedback: NOTHING
-
-Pool at B4: EMPTY
-Feedback: ATTACK
-
-Pool at E4: EMPTY
-Feedback: NOTHING
-
-Pool at F2: SHIP
-Feedback: NOTHING
-
-Shoot at G3: HIT
-Feedback: NOTHING
-
-Pool at B5: EMPTY
-Feedback: NOTHING
-
-Pool at G3: EMPTY
-Feedback: NOTHING
-
-Pool at C7: SHIP
-Feedback: NOTHING
-
-Shoot at C8: HIT
-Feedback: ATTACK
-
-Pool at I5: EMPTY
-Feedback: NOTHING
-
-Pool at G6: EMPTY
-Feedback: NOTHING
-
-Pool at F3: EMPTY
-Feedback: NOTHING
-
-Pool at C8: SHIP
-Feedback: NOTHING
-
-Shoot at C9: HIT
-Feedback: NOTHING
-
-Pool at D2: EMPTY
-Feedback: NOTHING
-
-Pool at E4: EMPTY
-Feedback: NOTHING
-
-Pool at F2: EMPTY
-Feedback: NOTHING
-
-Pool at D8: SHIP
-Feedback: NOTHING
-
-Shoot at D9: HIT
-Feedback: NOTHING
-
-Pool at B5: EMPTY
-Feedback: ATTACK
-
-Pool at C2: EMPTY
-Feedback: NOTHING
-
-Pool at I5: EMPTY
-Feedback: NOTHING
-
-Pool at F4: EMPTY
-Feedback: NOTHING
-
-Pool at G5: EMPTY
-Feedback: NOTHING
-
-Pool at I4: EMPTY
-Feedback: NOTHING
-
-Pool at I2: EMPTY
-Feedback: NOTHING
-
-Pool at C7: SHIP
-Feedback: NOTHING
-
-Shoot at B8: HIT
-Feedback: NOTHING
-
+Bateau OK
+Bateau OK
+Bateau OK
+Bateau OK
+Votre bateau a explosé contre une mine !
+KABOOM
+
+H2
+
+KABOOM
+
+E5
+
+START
+
+O O O O O O O O O O 
+O 1 O O O O O O 2 O 
+O 1 O O 1 1 1 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 1 1 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 1
+
+Mon tour : 
+POLL
+B1
+Bateau non trouvé.coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 1 O O O O O O 2 O 
+O 1 O O 1 1 1 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 1 1 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 2
+
+Mon tour : 
+POLL
+E1
+Bateau trouvé : D2
+
+coucouc
+Tour adverse : 
+ATTACK
+
+B1
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 1 O O 1 1 1 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 1 1 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O 3 1 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 3
+
+Mon tour : 
+Tir reussi : D2
+coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 1 O O 1 1 1 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 1 1 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 4
+
+Mon tour : 
+POLL
+E1
+Bateau trouvé : D0
+
+coucouc
+Tour adverse : 
+ATTACK
+
+B2
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 1 1 1 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 1 1 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 1 O O O O O O 
+O O O O O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 5
+
+Mon tour : 
+Tir reussi : D0
+coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 1 1 1 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 1 1 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O O O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 6
+
+Mon tour : 
+POLL
+E1
+Bateau trouvé : D1
+
+coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 1 1 1 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 1 1 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 1 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 7
+
+Mon tour : 
+Tir reussi : D1
+coucouc
+Tour adverse : 
+ATTACK
+
+G7
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 1 1 1 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 1 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 8
+
+Mon tour : 
+POLL
+E1
+Bateau non trouvé.coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 1 1 1 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 1 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 9
+
+Mon tour : 
+POLL
+H1
+Bateau non trouvé.coucouc
+Tour adverse : 
+ATTACK
+
+F7
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 1 1 1 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 10
+
+Mon tour : 
+POLL
+I1
+Bateau non trouvé.coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 1 1 1 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 11
+
+Mon tour : 
+POLL
+B3
+Bateau non trouvé.coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 1 1 1 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 12
+
+Mon tour : 
+POLL
+E3
+Bateau non trouvé.coucouc
+Tour adverse : 
+ATTACK
+
+F2
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 1 2 1 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 13
+
+Mon tour : 
+POLL
+H3
+Bateau non trouvé.coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 1 2 1 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 14
+
+Mon tour : 
+POLL
+I3
+Bateau non trouvé.coucouc
+Tour adverse : 
+ATTACK
+
+E2
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 1 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 15
+
+Mon tour : 
+POLL
+B6
+Bateau non trouvé.coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 1 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 16
+
+Mon tour : 
+POLL
+E6
+Bateau non trouvé.coucouc
+Tour adverse : 
+ATTACK
+
+G2
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 17
+
+Mon tour : 
+POLL
+H6
+Bateau non trouvé.coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 18
+
+Mon tour : 
+POLL
+I6
+Bateau non trouvé.coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 1 1 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+Round : 19
+
+Mon tour : 
+POLL
+B8
+Bateau trouvé : B9
+
+coucouc
+Tour adverse : 
+ATTACK
+
+D7
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 2 1 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O 1 O O O O O O O O 
+Round : 20
+
+Mon tour : 
+Tir reussi : B9
+coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 2 1 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+O 2 O O O O O O O O 
+Round : 21
+
+Mon tour : 
+POLL
+B8
+Bateau trouvé : A9
+
+coucouc
+Tour adverse : 
+ATTACK
+
+E7
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 2 2 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+1 2 O O O O O O O O 
+Round : 22
+
+Mon tour : 
+Tir reussi : A9
+coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 2 2 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+2 2 O O O O O O O O 
+Round : 23
+
+Mon tour : 
+POLL
+B8
+Bateau non trouvé.coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 2 2 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O O O O O O 
+2 2 O O O O O O O O 
+Round : 24
+
+Mon tour : 
+POLL
+E8
+Bateau trouvé : F8
+
+coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 2 2 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O 1 O O O O 
+2 2 O O O O O O O O 
+Round : 25
+
+Mon tour : 
+Tir reussi : F8
+coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 1 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 2 2 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O O 2 O O O O 
+2 2 O O O O O O O O 
+Round : 26
+
+Mon tour : 
+POLL
+E8
+Bateau trouvé : E8
+
+coucouc
+Tour adverse : 
+ATTACK
+
+B3
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 2 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 2 2 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O 1 2 O O O O 
+2 2 O O O O O O O O 
+Round : 27
+
+Mon tour : 
+Tir reussi : E8
+coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 2 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 2 2 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O O 2 2 O O O O 
+2 2 O O O O O O O O 
+Round : 28
+
+Mon tour : 
+POLL
+E8
+Bateau trouvé : D8
+
+coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 2 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 2 2 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O 1 2 2 O O O O 
+2 2 O O O O O O O O 
+Round : 29
+
+Mon tour : 
+Tir reussi : D8
+coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 2 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 2 2 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O 2 2 2 O O O O 
+2 2 O O O O O O O O 
+Round : 30
+
+Mon tour : 
+POLL
+E8
+Bateau non trouvé.coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 2 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 2 2 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O 2 2 2 O O O O 
+2 2 O O O O O O O O 
+Round : 31
+
+Mon tour : 
+POLL
+H8
+Bateau trouvé : H8
+
+coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 2 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 2 2 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O 2 2 2 O 1 O O 
+2 2 O O O O O O O O 
+Round : 32
+
+Mon tour : 
+Tir reussi : H8
+coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 2 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 2 2 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O 2 2 2 O 2 O O 
+2 2 O O O O O O O O 
+Round : 33
+
+Mon tour : 
+POLL
+H8
+Bateau trouvé : G8
+
+coucouc
+Tour adverse : 
+NOTHING
+
+O O O O O O O O O O 
+O 2 O O O O O O 2 O 
+O 2 O O 2 2 2 O 2 O 
+O 2 O O O O O O O O 
+O 1 O O 1 1 1 O O O 
+O 1 O O O O O O O O 
+O O O O O O O O O O 
+O O O 2 2 2 2 O O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+
+O O O 2 O O O O O O 
+O O O 2 O O O O O O 
+O O 3 2 O O O 2 O O 
+O O O O O O O O O O 
+O O O O O O O O O O 
+O O O O 2 O O O O O 
+O O O O O O O O O O 
+O O 3 O O O O 3 O O 
+O O O 2 2 2 1 2 O O 
+2 2 O O O O O O O O 
+Round : 34
+
+Mon tour : 
+Tir reussi : G8
+coucouc
+Tour adverse : 
+ATTACK
+
+B4
+
+O O O O O 
